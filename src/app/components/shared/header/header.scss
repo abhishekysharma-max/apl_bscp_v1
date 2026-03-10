@@ -1,0 +1,36 @@
+.app-header {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  height: 19px;
+  width: auto;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--brand-purple);
+  color: white;
+  font-size: 13px;
+}
+
+.notification {
+  cursor: pointer;
+}
