@@ -1,2 +1,6 @@
-<app-header></app-header>
+<main>
+  @if (router.url !== '/login') {
+    <app-header></app-header>
+  }
+</main>
 <router-outlet />

@@ -4,8 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
-  background: white;
-  border-bottom: 1px solid #eee;
+  background: transparent;
 }
 
 .logo img {
@@ -29,8 +28,5 @@
   background: var(--brand-purple);
   color: white;
   font-size: 13px;
-}
-
-.notification {
   cursor: pointer;
 }

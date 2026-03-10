@@ -1,0 +1,53 @@
+.dashboard-container {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url('/assets/backgroung-flow.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: calc(100vh - 36px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  background: linear-gradient(180deg, #42a9bc 0%, #002e61 100%);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-grid {
+  margin: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 320px);
+  gap: 30px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dashboard-card img {
+  height: 70px;
+  margin-top: 32px;
+}
+
+.subtext {
+  color: #838698;
+}

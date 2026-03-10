@@ -1,5 +1,5 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject, signal } from '@angular/core';
+import { RouterOutlet, Router } from '@angular/router';
 import { Header } from './components/shared/header/header';
 
 @Component({
@@ -10,4 +10,5 @@ import { Header } from './components/shared/header/header';
 })
 export class App {
   protected readonly title = signal('bscp');
+  public readonly router = inject(Router);
 }
