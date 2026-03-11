@@ -20,7 +20,12 @@
       <h2>Sign in</h2>
       <p style="margin-top: 0px">to access your enterprise account</p>
 
-      <p-button styleClass="w-full" severity="primary" label="Login with SSO"></p-button>
+      <p-button
+        styleClass="w-full"
+        severity="primary"
+        label="Login with SSO"
+        (onClick)="login()"
+      ></p-button>
 
       <p class="terms">
         By proceeding, I acknowledge that I have read, understood and agreed to be bound by

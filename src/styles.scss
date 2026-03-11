@@ -22,6 +22,15 @@ body {
   font-size: 13px;
 }
 
+.p-button.p-button-primary :hover {
+  background-color: var(--brand-purple);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
 .shadow,
 .shadow-md {
   box-shadow: var(--p-card-shadow) !important;

@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
-import { CommonService } from '../../services/common.service';
+// import { CommonService } from '../../services/common.service';
 import { ButtonModule } from 'primeng/button';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -9,9 +10,11 @@ import { ButtonModule } from 'primeng/button';
   styleUrl: './login.scss',
 })
 export class Login {
-  private common = inject(CommonService);
+  // private common = inject(CommonService);
+  private auth = inject(AuthService);
 
-  login() {
-    this.common.ssoLogin();
+  async login() {
+    const token = await this.auth.login();
+    console.log('TOKEN RECEIVED :: ', token);
   }
 }
