@@ -1,4 +1,6 @@
-
+secret value : T4F8Q~yIsgAZaGO0jNkpruSN3FnjvvxrPok~pc9H
+ 
+secret id : 81dcdc00-d277-496e-b492-54d91376a6dd
  
 client id : 49a63df5-598d-401e-9824-a9522586bfd5
  
