@@ -72,8 +72,11 @@
   margin-top: 16px;
 }
 
-:host ::ng-deep .w-full,
-.w-full:hover {
+:host ::ng-deep .w-full {
+  width: 50%;
+}
+
+:host ::ng-deep .w-full:hover {
   width: 50%;
 }
 
